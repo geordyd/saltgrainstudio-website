@@ -1,0 +1,29 @@
+@font-face {
+    font-family: 'Caviar Dreams';
+    src: url('../fonts/CaviarDreams.eot');
+    src: url('../fonts/CaviarDreams.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/CaviarDreams.woff') format('woff'),
+         url('../fonts/CaviarDreams.ttf') format('truetype'),
+         url('../fonts/CaviarDreams.svg#caviardreams') format('svg');
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src: url('../fonts/Poppins-Regular.eot');
+    src: url('../fonts/Poppins_Regular.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/Poppins-Regular.woff') format('woff'),
+         url('../fonts/Poppins_Regular.ttf') format('truetype'),
+         url('../fonts/Poppins_Regular.svg#poppins') format('svg');
+}
+
+body {
+    margin: 0px;
+    font-family: 'Poppins';
+}
+
+h1, h2, h3, h4, h5, 
+.topnav_container, 
+.footer_title, 
+.footer_btn {
+    font-family: 'Caviar Dreams' !important;
+}

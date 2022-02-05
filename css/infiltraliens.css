@@ -1,0 +1,15 @@
+.downloadButton {
+    width: 400px;
+    height: 70px;
+    background-color: #E28654;
+    border: none;
+    border-radius: 15px;
+    font-size: 30px;
+    color: white;
+    font-family: 'Caviar Dreams';
+    cursor: pointer;
+}
+
+.downloadButton a {
+
+}
